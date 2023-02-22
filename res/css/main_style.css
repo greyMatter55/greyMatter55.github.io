@@ -1,0 +1,181 @@
+/* ----- Themes -----*/
+.dark_theme {
+    --bg_color: #333F4F;
+    --hdr_color: #BBD6DB;
+    --main_txt_color: white;
+    --second_txt_color: black;
+    --dd_box_color: #EFF2FB;
+    --link_hover: rgb(255, 115, 0);
+}
+
+.light_theme {
+    --bg_color: #EFF2FB;
+    --hdr_color: #557DA5;
+    --main_txt_color: black;
+    --second_txt_color: white;
+    --link_hover: rgb(0, 13, 255);
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* ----- Navigation Bar ----- */
+body {
+    background-color: var(--bg_color);
+    color: var(--main_txt_color);
+    margin: 0px;
+}
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing*/
+.navbar {
+    /* border: 2px greenyellow solid; */
+    box-sizing: border-box;
+    height: 7rem;
+    width: 100%;
+    display: inline-flex;
+    border-bottom: 2px solid var(--main_txt_color);
+}
+
+.nav_box {
+    /* border: 1px white dashed; */
+    box-sizing: content-box;
+    display: inline-flex;
+}
+
+.nav_one {
+    color: var(--second_txt_color);
+    width: 50%;
+    padding-left: 2rem;
+    align-items: center;
+}
+
+
+.hdr_box {
+    background-color: var(--hdr_color);
+    height: 65%;
+    width: 70%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.hdr_box p {
+    margin: 0px 0px 0px 0.75rem;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.tab_button {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-align: center;
+    margin-top: 4px;
+    height: calc(7rem*0.68);
+    font-size: small;
+    font-weight: bolder;
+}
+
+
+.tab_button:hover {
+    cursor: pointer;
+}
+
+.tabs {
+    position: fixed;
+    display: none;
+    top: 5.5rem;
+    height: fit-content;
+    width: fit-content;
+    opacity: 0;
+    z-index: 10;
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+}
+
+.tab_box:focus-within .tabs {
+    display: block;
+    opacity: 1;
+    filter: drop-shadow(25px 15px 10px rgba(2, 8, 20, 0.3));
+    /* transform: translateX(0%);
+    transition: all .5s ease-out; */
+    background-color: var(--hdr_color);
+}
+
+.tabs a:link,
+.tabs a:visited {
+    color: var(--second_txt_color);
+    text-decoration: none;
+}
+
+.nav_two,
+.nav_three {
+    color: var(--main_txt_color);
+    width: 25%;
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: right;
+}
+
+/* .nav_three{
+    margin-right: 2rem;
+} */
+
+.options {
+    /* border: 1px red solid;  */
+    display: inline-flex;
+    height: fit-content;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.options li{
+    padding: 0rem 1rem 0rem 0.5rem;
+}
+
+.dd_items {
+    position: absolute;
+    display: none;
+    height: fit-content;
+    top: 2.5rem;
+    /* right: 3rem; */
+    width: 7rem;
+    opacity: 0;
+    z-index: 10;
+    padding: 0.25rem 0.5rem 0.5rem 0.5rem;
+
+    background-color: var(--hdr_color);
+    border-top: 1px solid var(--main_txt_color);
+    filter: drop-shadow(25px 15px 10px rgba(2, 8, 20, 0.3));   
+}
+
+.options_dd:focus-within .dd_items {
+    opacity: 1;
+    display: block;
+}
+
+ .dd_account{
+    right: 4.5rem;
+}
+
+.dd_settings{
+    right: 0.25rem;
+}
+
+.options a:link,
+.options a:visited {
+    color: var(--main_txt_color);
+    text-decoration: none;
+}
+
+.dd_items a:link,
+.dd_items a:visited {
+    color: var(--second_txt_color);
+    text-decoration: none;
+}
+
+.tabs a:hover, .dd_items a:hover{
+    color: var(--link_hover);
+    /* ; */
+}
+
+
