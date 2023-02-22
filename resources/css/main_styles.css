@@ -1,3 +1,7 @@
-html{
+body{
     background-color: rgb(30, 46, 62);
+}
+
+#test{
+    color:brown;
 }
