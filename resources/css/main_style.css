@@ -1,3 +1,7 @@
+
+
+
+
 body {
     background-color: rgb(19, 41, 59);
     margin: 0px;
@@ -14,6 +18,8 @@ body {
 }
 
 .banner {
+    font-family: 'Indie Flower';
+    color: white;
     height: 5rem;
     width: 100%;
     background-color: rgb(4, 24, 39);
@@ -22,23 +28,31 @@ body {
 
     /* @keyframes duration | easing-function | delay |
     iteration-count | direction */
-    animation: 1.5s ease-out 0s 1 slideInFromLeft;
+    animation: 1s ease-out 0s 1 slideInFromLeft;
 
     display: inline-flex;
     box-sizing: border-box;
 }
 
 .bann_box1 {
-    width: 25%;
-    border: 1px white dashed;
+    width: 10%;
+    /* border: 1px white dashed; */
     box-sizing: content-box;
     /* display: inline-flex; */
 
 }
 
 .bann_box2 {
-    width: 75%;
+    width: 80%;
     border: 1px white dashed;
+    box-sizing: content-box;
+    /* display: inline-flex; */
+
+}
+
+.bann_box3 {
+    width: 10%;
+    /* border: 1px white dashed; */
     box-sizing: content-box;
     /* display: inline-flex; */
 
