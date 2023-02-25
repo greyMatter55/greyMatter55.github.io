@@ -56,13 +56,6 @@ body {
     filter: drop-shadow(0px 10px 10px var(--shdw_color));
 }
 
-.bann_box1 {
-    /* border: 1px white dashed; */
-    /* display: inline-flex; */
-    width: 10%;
-    box-sizing: content-box;
-}
-
 .bann_box2 {
     /* border: 1px white dashed; */
     /* display: inline-flex; */
@@ -72,7 +65,7 @@ body {
     box-sizing: content-box;
 }
 
-.bann_box3 {
+.bann_box3, .bann_box1{
     /* border: 1px white dashed; */
     display: inline-flex;
     justify-content: center;
@@ -81,7 +74,7 @@ body {
     box-sizing: content-box;
 }
 
-.bann_box3 img{
+.bann_box3 img, .bann_box1 img{
     width: 1.5rem;
     height: 1.5rem;
 }
