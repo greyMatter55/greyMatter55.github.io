@@ -1,9 +1,33 @@
+/* ----- Themes -----*/
+.dark_theme {
+    --bg_color: rgb(19, 41, 59);
+    --hdr_color: rgb(4, 24, 39);
 
+    --bdr_color: white;
+    --shdw_color: rgba(167, 171, 178, 0.25);
+
+    --main_txt_color: white;
+    --second_txt_color: black;
+    --dd_box_color: #EFF2FB;
+    --link_hover: rgb(255, 115, 0);
+}
+
+.light_theme {
+    --bg_color: #e7ecf1;
+    --hdr_color: #86a0bd;
+  
+    --bdr_color: black;
+    --shdw_color: rgba(36, 39, 42, 0.25);
+
+    --main_txt_color: black;
+    --second_txt_color: white;
+    --link_hover: rgb(0, 13, 255);
+}
 
 
 
 body {
-    background-color: rgb(19, 41, 59);
+    background-color: var(--bg_color);
     margin: 0px;
 }
 
@@ -18,42 +42,46 @@ body {
 }
 
 .banner {
-    font-family: 'Indie Flower';
-    color: white;
-    height: 5rem;
-    width: 100%;
-    background-color: rgb(4, 24, 39);
-    border-bottom: 2px solid white;
-    filter: drop-shadow(0px 10px 10px rgba(167, 171, 178, 0.25));
-
     /* @keyframes duration | easing-function | delay |
     iteration-count | direction */
     animation: 1s ease-out 0s 1 slideInFromLeft;
 
     display: inline-flex;
     box-sizing: border-box;
+    height: 5rem;
+    width: 100%;
+    color: var(--main_txt_color);
+    background-color: var(--hdr_color);
+    border-bottom: 2px solid var(--bdr_color);
+    filter: drop-shadow(0px 10px 10px var(--shdw_color));
 }
 
 .bann_box1 {
-    width: 10%;
     /* border: 1px white dashed; */
-    box-sizing: content-box;
     /* display: inline-flex; */
-
+    width: 10%;
+    box-sizing: content-box;
 }
 
 .bann_box2 {
-    width: 80%;
-    border: 1px white dashed;
-    box-sizing: content-box;
+    /* border: 1px white dashed; */
     /* display: inline-flex; */
-
+    font-family: 'Comfortaa', 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 80%;
+    box-sizing: content-box;
 }
 
 .bann_box3 {
-    width: 10%;
     /* border: 1px white dashed; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
     box-sizing: content-box;
-    /* display: inline-flex; */
+}
 
+.bann_box3 img{
+    width: 1.5rem;
+    height: 1.5rem;
 }
