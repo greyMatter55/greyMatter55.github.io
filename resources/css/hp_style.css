@@ -1,37 +1,3 @@
-/* ----- Themes -----*/
-.dark_theme {
-    --bg_color: rgb(19, 41, 59);
-    --hdr_color: rgb(4, 24, 39);
-
-    --bdr_color: white;
-    --shdw_color: rgba(167, 171, 178, 0.25);
-
-    --main_txt_color: white;
-    --second_txt_color: black;
-
-    --page_color: rgb(20, 58, 88);
-    --page_hvr_color: rgb(20, 58, 88);
-
-    --dd_box_color: #EFF2FB;
-    --link_hover: rgb(255, 115, 0);
-}
-
-.light_theme {
-    --bg_color: #e7ecf1;
-    --hdr_color: #86a0bd;
-  
-    --bdr_color: black;
-    --shdw_color: rgba(36, 39, 42, 0.25);
-
-    --main_txt_color: black;
-    --second_txt_color: white;
-
-    --page_color: rgb(184, 200, 215);
-
-    --link_hover: rgb(0, 13, 255);
-}
-/* --------------------------------------------------*/
-
 @keyframes slideInFromLeft {
     0% {
         transform: translateX(-100%);
@@ -65,8 +31,13 @@
     margin: 2rem;
 }
 
+.page a{
+    color: var(--main_txt_color);
+}
+
 .page:hover{
     filter: grayscale(30%);
+    cursor: pointer;
 }
 
 /* .pg1{

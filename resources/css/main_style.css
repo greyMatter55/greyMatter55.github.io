@@ -8,6 +8,10 @@
 
     --main_txt_color: white;
     --second_txt_color: black;
+
+    --page_color: rgb(20, 58, 88);
+    --page_hvr_color: rgb(20, 58, 88);
+
     --dd_box_color: #EFF2FB;
     --link_hover: rgb(255, 115, 0);
 }
@@ -21,6 +25,9 @@
 
     --main_txt_color: black;
     --second_txt_color: white;
+
+    --page_color: rgb(184, 200, 215);
+
     --link_hover: rgb(0, 13, 255);
 }
 

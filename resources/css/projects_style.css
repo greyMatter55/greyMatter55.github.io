@@ -1,0 +1,25 @@
+
+
+.proj_container{
+    /* border: 1px dashed var(--bdr_color); */
+    display: inline-flex;
+    flex-wrap: wrap;
+    /*flex-direction: column; */
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj_box{
+    border: 1px dashed var(--bdr_color);
+    height: 25rem;
+    width: 25rem;
+    background-color: var(--page_color);
+    filter: drop-shadow(0px 10px 10px var(--shdw_color));
+    border: 2px solid var(--bdr_color);
+    margin: 2rem;
+    text-align: center;
+} 
