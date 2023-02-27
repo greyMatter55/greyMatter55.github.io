@@ -1,15 +1,4 @@
 
-
-
-// document.getElementById("pg2").addEventListener("click", test);
-
-
-// function test(){
-//     window.open("./webpages/projects.html", "_self");
-// }
-
-
-
 document.getElementById("pg1").addEventListener("click", () => { page_link("pg1") });
 document.getElementById("pg2").addEventListener("click", () => { page_link("pg2") });
 document.getElementById("pg3").addEventListener("click", () => { page_link("pg3") });

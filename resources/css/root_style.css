@@ -12,6 +12,8 @@
     --page_color: rgb(20, 58, 88);
     --page_hvr_color: rgb(20, 58, 88);
 
+    --rsm_pg_color: rgb(24, 38, 49);
+
     --dd_box_color: #EFF2FB;
     --link_hover: rgb(255, 115, 0);
 }
@@ -27,6 +29,8 @@
     --second_txt_color: white;
 
     --page_color: rgb(184, 200, 215);
+
+    --rsm_pg_color: rgb(212, 218, 224);
 
     --link_hover: rgb(0, 13, 255);
 }
@@ -84,4 +88,5 @@ body {
 .bann_box3 img, .bann_box1 img{
     width: 1.5rem;
     height: 1.5rem;
+    padding: 0.5rem;
 }

@@ -1,0 +1,102 @@
+.pgs_container{
+    /* border: 1px dashed var(--bdr_color); */
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    height: fit-content;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.dwnld_btn{
+    margin-right: 42vw;
+}
+
+.page{
+    height: fit-content;
+    width: 50vw;
+    background-color: var(--rsm_pg_color);
+    color: var(--main_txt_color);
+    filter: drop-shadow(0px 10px 10px var(--shdw_color));
+    border: 2px solid var(--bdr_color);
+    font-family: "Kalam";
+    margin: 1rem;
+}
+
+.pg_bdy{
+    /* border: 1px dashed var(--bdr_color); */
+    margin: 2rem;
+    width: auto;
+    height: auto;
+}
+
+.hdr_row1{
+    border-bottom: 3px solid var(--bdr_color);
+    margin: 0%;
+    text-align: center;
+}
+
+.hdr_row1 h1, .hdr_row2 p{
+    margin: 0%;
+}
+
+.hdr_row2{
+    text-align: center;
+}
+
+.sect_box{
+    /* border: 1px dashed var(--bdr_color); */
+    margin: 1rem 0rem 1rem 0rem;
+}
+
+.sect_cont_box{
+    margin-bottom: 1rem;
+}
+
+.sect_name{
+    /* border: 1px dashed var(--bdr_color); */
+    text-align: center;
+    /* text-decoration: underline; */
+    margin: 0%; 
+}
+
+.sect_name h2{
+    text-decoration: underline;
+    margin: 0%;
+}
+
+.sect_hdr{
+    /* border: 1px dashed var(--bdr_color); */
+    display: inline-flex;
+    width: 100%;
+}
+
+.sect_hdr1{
+    /* border: 1px dashed var(--bdr_color); */
+    width: 70%;
+    height: auto;
+    text-align: left;
+}
+
+.sect_hdr1 h3{
+    margin: 0%;
+}
+
+.sect_hdr2{
+    /* border: 1px dashed var(--bdr_color); */
+    width: 30%;
+    height: fit-content;
+    text-align: right;
+}
+
+.sect_hdr2 h3{
+    margin: 0%;
+}
+
+.sect_cont, .sect_cont ul, .sect_cont p{
+    margin: 0%;
+    text-align: left;
+}
