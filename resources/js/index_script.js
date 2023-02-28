@@ -5,7 +5,7 @@ document.getElementById("pg3").addEventListener("click", () => { page_link("pg3"
 
 function page_link(page_num) {
     if (page_num === "pg1") {
-        window.open("./webpages/resume.html", "_blank");
+        window.open("./webpages/resume.html", "_self");
     } else if (page_num === "pg2") {
         window.open("./webpages/projects.html", "_self");
     } else if (page_num === "pg3") {
