@@ -16,6 +16,8 @@
 
     --dd_box_color: #EFF2FB;
     --link_hover: rgb(255, 115, 0);
+
+    --btn_color: rgb(30, 82, 124);
 }
 
 .light_theme {
@@ -33,6 +35,8 @@
     --rsm_pg_color: rgb(212, 218, 224);
 
     --link_hover: rgb(0, 13, 255);
+
+    --btn_color: rgb(153, 206, 249);
 }
 
 

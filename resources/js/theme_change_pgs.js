@@ -31,12 +31,16 @@ themeButton.onclick = () => {
         document.body.className = "dark_theme";
         document.getElementById("theme_btn").innerHTML = "<img src='../resources/img/theme_icon_dark.png'>";
         document.getElementById("hm_btn").innerHTML = "<img src='../resources/img/home_icon_dark.png'>";
+        document.getElementById("lst_btn").innerHTML = "<img src='../resources/img/list_icon_dark.png'>";
+        
         window.localStorage.setItem('theme', 'dark_theme');
 
     } else if (theme_mode === "dark_theme") {
         document.body.className = "light_theme";
         document.getElementById("theme_btn").innerHTML = "<img src='../resources/img/theme_icon_light.png'>";
         document.getElementById("hm_btn").innerHTML = "<img src='../resources/img/home_icon_light.png'>";
+        document.getElementById("lst_btn").innerHTML = "<img src='../resources/img/list_icon_light.png'>";
+        
         window.localStorage.setItem('theme', 'light_theme');
     }
 };

@@ -13,6 +13,22 @@
 
 .dwnld_btn{
     margin-right: 42vw;
+    height: 2rem;
+    background-color: var(--btn_color);
+}
+
+.dwnld_btn a{
+    color: var(--main_txt_color);
+    font-weight: bold;
+}
+
+.dwnld_btn a:active{
+    color: rgb(255, 115, 0);
+}
+
+
+.dwnld_btn:hover{
+    background-color: var(--hover_color);
 }
 
 .page{
@@ -34,7 +50,7 @@
 }
 
 .hdr_row1{
-    border-bottom: 3px solid var(--bdr_color);
+    /* border-bottom: 3px solid var(--bdr_color); */
     margin: 0%;
     text-align: center;
 }
@@ -53,6 +69,7 @@
 }
 
 .sect_cont_box{
+    /* border: 1px dashed var(--bdr_color); */
     margin-bottom: 1rem;
 }
 
@@ -68,31 +85,32 @@
     margin: 0%;
 }
 
-.sect_hdr{
+.sect_hdr, .sect_row{
     /* border: 1px dashed var(--bdr_color); */
     display: inline-flex;
     width: 100%;
 }
 
-.sect_hdr1{
+.sect_hdr1, .sect_col1{
     /* border: 1px dashed var(--bdr_color); */
     width: 70%;
     height: auto;
     text-align: left;
 }
 
-.sect_hdr1 h3{
+.sect_hdr1 h3, .sect_col1 p{
+    /* border: 1px dashed var(--bdr_color); */
     margin: 0%;
 }
 
-.sect_hdr2{
+.sect_hdr2, .sect_col2{
     /* border: 1px dashed var(--bdr_color); */
     width: 30%;
     height: fit-content;
     text-align: right;
 }
 
-.sect_hdr2 h3{
+.sect_hdr2 h3, .sect_col2 p{
     margin: 0%;
 }
 
