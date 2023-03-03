@@ -17,12 +17,12 @@
     --dd_box_color: #EFF2FB;
     --link_hover: rgb(255, 115, 0);
 
-    --btn_color: rgb(30, 82, 124);
+    --btn_color: rgb(99, 46, 11);
 }
 
 .light_theme {
     --bg_color: #e7ecf1;
-    --hdr_color: #86a0bd;
+    --hdr_color: #90aecf;
   
     --bdr_color: black;
     --shdw_color: rgba(36, 39, 42, 0.25);
@@ -71,25 +71,57 @@ body {
     filter: drop-shadow(0px 10px 10px var(--shdw_color));
 }
 
+.bann_box1{
+    /* border: 1px white dashed; */
+    padding-left: 2rem;
+    font-family: 'Comfortaa', 'Times New Roman', Times, serif;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    width: 20%;
+    box-sizing: content-box;
+}
+
+.bann_box1 ul{
+    /* border: 1px red dashed; */
+    margin: 0%;
+    padding: 0%;
+    display: inline-flex;
+    list-style: none;
+}
+
+.bann_box1 a{
+    margin: 0%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    color: var(--main_txt_color);
+}
+
+.bann_box1 a:active{
+    color: var(--link_hover);
+}
+
 .bann_box2 {
     /* border: 1px white dashed; */
     /* display: inline-flex; */
     font-family: 'Comfortaa', 'Times New Roman', Times, serif;
     text-align: center;
-    width: 80%;
+    width: 60%;
     box-sizing: content-box;
 }
 
-.bann_box3, .bann_box1{
+.bann_box3{
     /* border: 1px white dashed; */
+    padding-right: 2rem;
+    font-family: 'Comfortaa', 'Times New Roman', Times, serif;
     display: inline-flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
-    width: 10%;
+    width: 20%;
     box-sizing: content-box;
 }
 
-.bann_box3 img, .bann_box1 img{
+.bann_box3 img{
     width: 1.5rem;
     height: 1.5rem;
     padding: 0.5rem;

@@ -28,7 +28,7 @@
 
 
 .dwnld_btn:hover{
-    background-color: var(--hover_color);
+    background-color: var(--page_color);
 }
 
 .page{
@@ -50,7 +50,7 @@
 }
 
 .hdr_row1{
-    /* border-bottom: 3px solid var(--bdr_color); */
+    border-bottom: 3px solid var(--bdr_color);
     margin: 0%;
     text-align: center;
 }
